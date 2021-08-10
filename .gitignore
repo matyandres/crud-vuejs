@@ -1,0 +1,25 @@
+/node_modules
+/public/hot
+/public/js/app.js       #ignora app.js compilado
+/public/js/app_panel.js #ignora app_panel.js compilado
+/public/storage/*       # ignorar todo el contenido de storage
+!/public/storage        # excepto el enace simbólico al mismo/storage/*.key
+/vendor
+/deploy/*             #ignorar todo el contenido de deploy
+!/deploy/deleteFile.php #excepto deleteFile.php
+!/deploy/install.php #excepto install.php
+!/deploy/Validator.php #excepto Validator.php
+/public/mix-manifest.json
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+mariadb_repo_setup    #instalador mariadb, ignorar
+mariadb_repo_setup.1  #copia instalador mariadb, ignorar
+paquete.tar           #pquete imagenes, ignorar
+/storage/database.sqlite 
+indicadores_vrvm.sql  #script esquema bd, ignorar
+/resources/js/components/Common/json/Backups/* #ignora todo el contenido de los backups de archivos json modificados
